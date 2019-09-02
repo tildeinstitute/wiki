@@ -8,6 +8,7 @@ To contribute:
   * `git checkout -b mycoolpage`
 * Add your page in the `pages/` directory
 * Submit a PR
+* Once it's merged it will be pulled into the wiki
 
 Don't forget to wrap lines at approximately 75 columns. If
 you need to, use `fmt -w 75`. For example:
