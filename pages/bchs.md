@@ -33,8 +33,9 @@ as compiled CGI here at tilde.institute.
 
 Once you've written your software to be served via CGI, be sure to
 statically link the executables. Sure, there's a larger file size, but
-the benefits outweigh that in this case - there's no relying on what
-I may or may not have installed on tilde.institute. For example:
+the benefits outweigh that in this case - there's no relying on libraries
+I may or may not have available in the httpd chroot on tilde.institute.
+For example:
 
 ```
 $ cc -static -g -W -Wall -o app.cgi app.c
@@ -63,5 +64,13 @@ to test the compilation. It installs to `~/public_html` with the proper
 ownership and permissions. View the `index.c` source and the `makefile`
 to see what goes on under the hood! Feel free to adapt it your own projects!
 
+**Note:** You may need to add the following to `CFLAGS`
+```
++I/usr/local/include
+```
+..and the following to `LDFLAGS`
+```
+-lkcgihtml -lkcgi -lz
+```
 [back](/)
 
