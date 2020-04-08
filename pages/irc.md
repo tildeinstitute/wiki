@@ -22,6 +22,13 @@ Don't forget to `/join #institute` and `/join #meta`.
 /msg nickserv register <password> <email>
 ```
 
+## Certificates
+
+If you get an untrusted certificate error, change this line in `$HOME/.weechat/weechat.conf`
+```
+gnutls_ca_file = "/etc/ssl/cert.pem"
+```
+
 ## Channels
 
 There are quite a few channels on tilde.chat, however some have more
@@ -36,7 +43,7 @@ activity than others. Here's a few channels that you may be interested in.
 * `#tildetel` - the channel for [tilde.tel](https://tilde.tel), the neighborhood SIP server
 * `#security` - computer, software, and network security discussions
 * `#hamradio` - the channel for hams!
-* `#cervezafria` - A place for our Spanish-speaking friends to relax
+* `#gopher` - for the gopher protocol
 
 You can check the currently available channels any time by issuing `/list`
 in your IRC client.
