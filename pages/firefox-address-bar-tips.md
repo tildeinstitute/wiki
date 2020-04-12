@@ -9,7 +9,7 @@ efficiently
 
 The address bar has become our entry point to the internet these days.
 Firefox in its default configuration does some sort of _smart_ guess on
-what you type there.  If it resembles a [URL][https://en.wikipedia.org/wiki/URL]
+what you type there.  If it resembles a [URL](https://en.wikipedia.org/wiki/URL)
 then the browser makes that request.  If not, it sends the string you typed
 to your default search engine.  It also includes some fuzzy search matches
 from your history and all that, which is fine 90% of the time, but
