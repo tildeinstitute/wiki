@@ -1,6 +1,6 @@
 <!--
 title: Finger
-author: ahriman
+author: gbmor
 description: Getting started with fingerd
 -->
 

@@ -1,5 +1,5 @@
 <!--
-author: ahriman
+author: gbmor
 title: BCHS Guide
 description: Introduction to the BCHS stack for web development
 date: 2019-04-24

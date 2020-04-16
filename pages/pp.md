@@ -1,7 +1,7 @@
 <!--
 title: pp(1)
 description: Introduction to pp(1)
-author: ahriman / gbmor
+author: gbmor
 -->
 
 # pp(1)
@@ -55,6 +55,6 @@ Will output, per the manual page:
 The manpage includes more information on advanced features, such as piping `stdin` and debugging.
 
 ## Notes
-* Full Guide: [adi.tilde.institute/pp](https://adi.tilde.institute/pp)
+* Full Guide: [adi.tilde.institute/](https://adi.tilde.institute/)
 
 [back](/)

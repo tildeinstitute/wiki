@@ -1,6 +1,6 @@
 <!--
 title: Dungeon Crawl Stone Soup
-author: ahriman
+author: gbmor
 description: Connecting to the Tildeverse DCSS instance
 -->
 

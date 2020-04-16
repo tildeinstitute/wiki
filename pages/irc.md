@@ -1,7 +1,7 @@
 <!--
 title: IRC
 description: Introduction to our IRC network
-author: ahriman
+author: gbmor
 -->
 
 # IRC

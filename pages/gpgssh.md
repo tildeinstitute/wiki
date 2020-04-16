@@ -1,7 +1,7 @@
 <!--
 title: GnuPG for SSH Authentication
 Description: Using gpg-agent as an alternative to ssh-agent
-author: ahriman
+author: gbmor
 -->
 
 # Using GPG for SSH Authentication
