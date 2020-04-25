@@ -30,7 +30,7 @@ only requires this command:
 tin -r
 ```
 
-`-r` for remote newsgroups. Once connected, hit `s` to subscribe, then `*` to subscribe
+`-r` for remote newsgroups. Once connected, hit `S` to subscribe, then `*` to subscribe
 to all newsgroups. To start a new thread, pick a group, then hit `w` for "write" and
 compose your message. To respond to a message in a thread, hit `f` for "follow-up". There
 are a few other options for interaction with a post or thread, such as `r` for a direct
