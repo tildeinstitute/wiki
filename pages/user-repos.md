@@ -110,9 +110,13 @@ git remote add tilde.institute <USER>@tilde.institute:public_repos/widget/libwid
 
 You can link to just your own repos via `https://git.tilde.institute/<USER>`
 
-## Caveats
+The following files will be parsed into an `about` page for a given repo, in order:
 
-It's not currently set up to parse markdown, so a plaintext README will work best.
+* `README`
+* `README.7`
+* `README.1`
+* `README.txt`
+* `README.md`
 
 [back](/)
 
