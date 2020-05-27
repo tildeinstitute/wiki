@@ -58,13 +58,19 @@ If both exist, the field in `config` will be favored by cgit.
 
 ## Setting up the remote
 
-Navigate to your repository on your home computer, and add the following remote, replacing `<USER>` with your username at tilde.institute, and `<REPO>` with the repo name:
+If pushing from your home computer, add the following remote, replacing `<USER>` with your username at tilde.institute, and `<REPO>` with the repo name:
 
 ```
 git remote add tilde.institute <USER>@tilde.institute:public_repos/<REPO>
 ```
 
-Now it's time to push to the repo you set up on tilde.institute:
+If pushing from your home directory on tilde.institute, use this format:
+
+```
+git remote add tilde.institute /home/<USER>/public_repos/<REPO>
+```
+
+Now it's time to push to the repo you set up:
 
 ```
 git push -u tilde.institute master
