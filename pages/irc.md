@@ -44,6 +44,7 @@ activity than others. Here's a few channels that you may be interested in.
 * `#security` - computer, software, and network security discussions
 * `#hamradio` - the channel for hams!
 * `#gopher` - for the gopher protocol
+* `#gemini` - discussion for the Gemini protocol
 
 You can check the currently available channels any time by issuing `/list`
 in your IRC client.
