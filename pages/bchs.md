@@ -5,6 +5,10 @@ description: Introduction to the BCHS stack for web development
 date: 2019-04-24
 -->
 
+**NOTE**
+
+This needs to be updated - a current example can be found at [https://github.com/kristapsdz/kcgi-framework](https://github.com/kristapsdz/kcgi-framework) and more information on `kcgi` at [https://kristaps.bsd.lv/kcgi/](https://kristaps.bsd.lv/kcgi/)
+
 # BCHS Guide
 
 This will be a quick-and-dirty guide to getting started with the BCHS
