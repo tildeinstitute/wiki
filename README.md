@@ -21,4 +21,4 @@ clobbered.
 
 ## Software
 
-The wiki engine being used is [TildeWiki](https://github.com/gbmor/tildewiki), developed by ahriman
+This uses [tildewiki](https://github.com/tildeinstitute/tildewiki)
