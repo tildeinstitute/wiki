@@ -2,22 +2,8 @@
 
 This repository holds the wiki data for tilde.institute
 
-To contribute:
-* Fork the repository
-* Create a branch with an appropriate name:
-  * `git checkout -b mycoolpage`
-* Add your page in the `pages/` directory
-* Submit a PR
-* Once it's merged it will be pulled into the wiki
-
-Don't forget to wrap lines at approximately 75 columns. If
-you need to, use `fmt -w 75`. For example:
-
-```
-$ fmt -w 75 mypage.md | tee mypage.md
-```
-Then afterwards, check the page to fix anything that got
-clobbered.
+Depending on which mirror you find this repo at, either submit a PR or mail
+a patch in to add or edit a page.
 
 ## Software
 
