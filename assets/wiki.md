@@ -4,7 +4,7 @@ Welcome to the [tilde.institute](https://tilde.institute) wiki!
 
 If you are new here, you may want to check out the [IRC](/w/irc) page. Or, if you know your way around and want to contribute to the wiki, open a PR!
 
-Repository: [tildegit.org/institute/wiki](https://tildegit.org/institute/wiki)
+Repository: [git.tilde.institute/tilde/wiki](https://git.tilde.institute/tilde/wiki)
 
 ### Pages
 
