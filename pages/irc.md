@@ -24,9 +24,9 @@ Don't forget to `/join #institute` and `/join #meta`.
 
 ## Certificates
 
-If you get an untrusted certificate error, change this line in `$HOME/.weechat/weechat.conf`
+If you get an untrusted certificate error, change the weechat configs:
 ```
-gnutls_ca_file = "/etc/ssl/cert.pem"
+/set weechat.network.gnutls_ca_file "/etc/ssl/cert.pem"
 ```
 
 ## Channels
