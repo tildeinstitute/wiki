@@ -26,6 +26,12 @@ you have un-incorporated mail, or more specifically, when your
 PS1="\$([-s /var/mail/`whoami` ] && echo '* ')$PS1"
 ```
 
+For maildir try this:
+
+```
+PS1="$(test -z "`ls -A $HOME/Maildir/new`" || echo '* ')$PS1"
+```
+
 This works in `/bin/ksh`, I can't speak for other shells.
 
 If anybody else has some quick tips they would like to share, I encourage
