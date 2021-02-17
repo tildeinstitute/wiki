@@ -15,6 +15,9 @@ bundled into `.tar.gz` archives and listed on the summary page.
 All repos can be viewed at
 [https://git.tilde.institute](https://git.tilde.institute)
 
+**Note:** If a change doesn't appear in cgit immediately, wait a few
+minutes. The cache will time out.
+
 ## Creating the directory
 
 New users will not have to do this step. A `~/public_repos` link will
@@ -51,15 +54,22 @@ Change into *that* directory and initialize a bare repo:
 cd foo.git; git init --bare
 ```
 
-Now that the bare repo has been created, edit the file called `config`
-and append the following section:
+Now that the bare repo has been created, we'll need to set some configuration
+options. You may use this command from within the directory you just created:
+
+```
+git config --local gitweb.owner "$USER <$USER@tilde.institute>"
+```
+
+Or, you may manually edit the file called `config` and append the following
+section:
 
 ```
 [gitweb]
     owner = user_name <user_name@tilde.institute>
 ```
 
-Write out the text description of your repo into a file called
+Then, write out the text description of your repo into a file called
 `description`:
 
 ```
