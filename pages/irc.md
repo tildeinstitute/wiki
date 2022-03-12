@@ -74,6 +74,12 @@ And if you're using `irssi`
 /connect -tls -tls_verify irc.tilde.chat 6697
 ```
 
+Or from `catgirl`:
+
+```
+catgirl -h institute.tilde.chat -n <nick>
+```
+
 The tildeverse IRC network also runs an instance of `The Lounge`, a
 web-based IRC client that allows you to stay connected even when you're
 away. It's available at:
