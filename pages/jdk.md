@@ -19,4 +19,6 @@ Afterwards, you may call `java`, `javac`, etc as expected.
 JDK 1.8.0 is also available by replacing `jdk-11` in the above two lines
 with `jdk-1.8.0`
 
+JDK 17 is also available.
+
 [back](/)
