@@ -11,9 +11,9 @@ chatting while logged on to tilde.institute, simply use the command
 `chat`! If you prefer to use a different IRC client than the default,
 such as `irssi`, the following server information will apply:
 
-* institute.tilde.chat
-* Port 6697
-* TLS / SSL
+* localhost
+* Port 6667
+* No TLS
 
 Don't forget to `/join #institute` and `/join #meta`.
 
