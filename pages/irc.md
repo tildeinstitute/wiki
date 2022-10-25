@@ -15,6 +15,9 @@ such as `irssi`, the following server information will apply:
 * Port 6667
 * No TLS
 
+If you're using the `catgirl` client, you can just run `catgirl local`.
+This uses the default system config. See `man 1 catgirl` if you want a custom config.
+
 Don't forget to `/join #institute` and `/join #meta`.
 
 **NOTE:** You must register with `nickserv` to talk in `#meta`:
