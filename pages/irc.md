@@ -83,11 +83,10 @@ Or from `catgirl`:
 catgirl -h institute.tilde.chat -n <nick>
 ```
 
-The tildeverse IRC network also runs an instance of `The Lounge`, a
-web-based IRC client that allows you to stay connected even when you're
-away. It's available at:
+The tilde.chat IRC network also runs two web clients:
 
-* [https://web.tilde.chat](https://web.tilde.chat)
+* [gamja](https://tilde.chat/gamja)
+* [kiwi](https://tilde.chat/kiwi)
 
 Join us on the tildeverse IRC network and socialize with other tilde users!
 
